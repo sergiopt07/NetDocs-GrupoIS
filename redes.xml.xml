@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="archivo_vuestro.xsl"?>
+<documento>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 1-->
+    <!--  - - - - - - - -->
+    <pagina num="1">
+        <titulo><![CDATA[Características de las Redes de Computadoras]]></titulo>
+        <informacion>
+            Una exploración completa de los fundamentos de la conectividad digital: desde los
+            conceptos básicos hasta las arquitecturas modernas que sustentan nuestra sociedad
+            interconectada.
+        </informacion>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 2-->
+    <!--  - - - - - - - -->
+    <pagina num="2">
+        <titulo><![CDATA[<h2><b>Definición y Propiedades Clave de las Redes</b></h2>]]></titulo>
+        <informacion>
+        Una red de computadoras es un conjunto de dispositivos interconectados que comparten 
+        recursos (impresoras, servidores, almacenamiento) e información de manera eficiente.
+        Esta infraestructura digital es el pilar fundamental que permite la 
+        comunicación global instantánea y el intercambio de datos en tiempo real.
+        </informacion>
+
+        <!-- BLOQUES -->
+        <bloques pagina="2">
+            <!-- BLOQUE DE INTEROPERABILIDAD-->
+            <bloque num="1">   
+                <subtitulo1><![CDATA[<h4><b>Interoperabilidad</b></h4>]]></subtitulo1>
+                <descripcion>
+                Capacidad crucial de conectar equipos dedistintos fabricantes y sistemas operativos
+                    sin incompatibilidades.
+                    Por ejemplo, un ordenador Windows puede colaborar perfectamente con un Mac, un
+                    servidor Linux y dispositivos Android en la misma red gracias a protocolos estándar y
+                    arquitecturas abiertas.
+                </descripcion>
+            </bloque>
+            <!-- BLOQUE DE ESCALABILIDAD-->
+            <bloque num="2">
+                <subtitulo2><![CDATA[<h4><b>Escalabilidad</b></h4>]]></subtitulo2>
+                <descripcion>
+                        La red debe poder crecer y adaptarse a las necesidades cambiantes de la organización.
+                        Esto significa añadir nuevos usuarios, dispositivos o servicios sin degradar el
+                        rendimiento existente. Una red escalable se diseña pensando en el futuro, con margen
+                        de crecimiento en ancho de banda y capacidad de procesamiento.
+                </descripcion>
+            </bloque>
+            <!-- BLOQUE DE SEGURIDAD-->
+             <bloque num="3">
+                <subtitulo3><![CDATA[<h4><b>Seguridad</b></h4>]]></subtitulo3>
+                <descripcion>
+                    Protección integral contra amenazas digitales (malware, phishing, ataques DDoS,
+                    ransomware) mediante múltiples capas de defensa:
+                    Firewalls que filtran tráfico no autorizado, cifrado de datos en tránsito, VPNs para
+                    conexiones remotas seguras, y sistemas de detección de intrusiones.
+                </descripcion>
+            </bloque>
+        </bloques>
+
+        <informacion_post_Bloques>
+            La importancia de las redes en la actualidad es indiscutible: 
+            son vitales para el teletrabajo mediante VPNs corporativas seguras, 
+            fundamentales para la educación a distancia con plataformas de videoconferencia, 
+            y esenciales para el Internet de las Cosas (IoT) que conecta miles de millones de
+            dispositivos inteligentes en hogares, ciudades y fábricas.
+        </informacion_post_Bloques>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 3-->
+    <!--  - - - - - - - -->
+    <pagina num="3">
+        <titulo><![CDATA[<h2><b>Clasificación de Redes según su Alcance Geográfico</b></h2>]]></titulo>
+        <informacion>
+            Las redes se clasifican principalmente por el área geográfica que cubren, 
+            determinando sus características técnicas, velocidad de transmisión y casos de
+            uso específicos.
+        </informacion>
+
+        <!-- BLOQUES -->
+        <bloques pagina="3">
+            <!-- BLOQUE DE PAN -->
+            <bloque num="1">
+                <subtitulo1><![CDATA[<h4><b>Red de Área Personal (PAN)</b></h4>]]></subtitulo1>
+                <descripcion>
+                    Alcance de pocos metros, generalmente hasta 10m. Conecta dispositivos 
+                    personales cercanos al usuario.
+                    <![CDATA[<p><b>Ejemplo típico: </b></p>]]> Bluetooth conectando un smartwatch, auriculares inalámbricos o teclado
+                    al teléfono móvil. Tecnologías: Bluetooth, NFC, USB.
+                </descripcion>     
+            </bloque>
+            
+            <!-- BLOQUE DE LAN-->
+            <bloque num="2">
+                <subtitulo2><![CDATA[<h4><b>Red de Área Local (LAN)</b></h4>]]></subtitulo2>
+                <descripcion>
+                    Cubre edificios individuales o campus pequeños (hasta 1-2 km). Alta velocidad y bajo coste.
+                    <![CDATA[<p><b>Ejemplo típico: </b></p>]]> La red Wi-Fi y Ethernet de una oficina, casa,
+                    escuela o centro comercial. Permite compartir impresoras, archivos y conexión a Internet.
+                </descripcion>
+            </bloque>
+
+            <!-- BLOQUE DE MAN-->
+            <bloque num="3">
+                <subtitulo3><![CDATA[<h4><b>Red de Área Metropolitana (MAN)</b></h4>]]></subtitulo3>
+                <descripcion>
+                    Cobertura del tamaño de una ciudad completa (hasta 50 km).
+                    <![CDATA[<p><b>Ejemplo típico: </b></p>]]> Red que interconecta varios campus universitarios dispersos en una
+                    misma ciudad, o red de fibra óptica municipal que conecta edificios gubernamentales.
+                </descripcion>
+            </bloque>
+
+            <!-- BLOQUE DE WAN-->
+            <bloque num="4">    
+                <subtitulo4><![CDATA[<h4><b>Red de Área Amplia (WAN)</b></h4>]]></subtitulo4>
+                <descripcion>
+                    Alcance global, continental o incluso mundial.
+                    <![CDATA[<p><b>Ejemplo típico: </b></p>]]> Internet es la WAN más grande del mundo. También redes corporativas multinacionales
+                    que conectan oficinas en diferentes países y continentes mediante
+                    enlaces satelitales y cables submarinos.
+                </descripcion>
+            </bloque>
+        </bloques>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 4-->
+    <!--  - - - - - - - -->
+    <pagina num="4">
+        <titulo><![CDATA[<h2><b>Tipos de Conexión: Guiadas e Inalámbricas</b></h2>]]></titulo>
+        <bloques>
+
+            <!-- BLOQUE DE LA GUIADA-->
+            <bloque num="1">
+                <subtitulo1><![CDATA[<h4><b>Conexiones por Cable (Medios Guiados)</b></h4>]]></subtitulo1>
+                <introduccion>
+                    Las conexiones físicas ofrecen mayor estabilidad, seguridad y
+                    velocidades predecibles, aunque limitan la movilidad.
+                </introduccion>
+
+                <listas>
+                    <!-- LISTA DE LA DERECHA -->
+                    <lista numero="1">
+                        <titulo-lista><![CDATA[<h4><b>Ethernet (Par Trenzado)</b></h4>]]></titulo-lista>
+                        <texto>
+                            El estándar dominante en redes LAN. Utiliza cables de cobre con
+                            pares de hilos trenzados que reducen interferencias electromagnéticas.
+                            <![CDATA[<p><b>Cat5: </b></p>]]> Hasta 1 Gbps, 100 metros máximo
+                            <![CDATA[<p><b>Cat6: </b></p>]]> Hasta 10 Gbps en distancias cortas
+                            <![CDATA[<p><b>Cat6a/Cat7: </b></p>]]> 10 Gbps sostenidos, blindaje mejorado
+                            Ventajas: Alta velocidad, bajo coste, estabilidad. Uso: Oficinas,
+                            hogares, centros de datos.
+                        </texto>
+                    </lista>
+
+                    <lista numero="2">
+                        <titulo-lista><![CDATA[<h4><b>Fibra Óptica</b></h4>]]></titulo-lista>
+                        <texto>
+                            Transmite datos mediante pulsos de luz a través de filamentos de
+                            vidrio o plástico ultrapuros. Tecnología de mayor rendimiento disponible.
+                             <![CDATA[<p><b>Monomodo: </b></p>]]>Un solo haz de luz, largas distancias (100+ km), costosa
+                             <![CDATA[<p><b>Multimodo: </b></p>]]> Múltiples haces, distancias cortas (2 km), más económica
+                            Ventajas: Velocidades de Terabits/s, inmune a interferencias,
+                            distancias enormes. Uso: Redes troncales, ISPs, datacenters.
+                        </texto>
+                    </lista>
+                </listas>
+            </bloque>
+
+            <!-- BLOQUE DE LA INALAMBRICA-->
+            <bloque num="2">
+                <subtitulo1><![CDATA[<h4><b>Conexiones Inalámbricas (Medios No Guiados)</b></h4>]]></subtitulo1>
+                <introduccion>
+                    Utilizan ondas electromagnéticas para transmitir datos sin cables físicos,
+                    proporcionando movilidad y flexibilidad.
+                </introduccion>
+
+                <listas>
+                    <!-- LISTA DE LA IZQUIERDA -->
+                    <lista numero="1">
+                        <titulo-lista><![CDATA[<h4><b>Wi-Fi (IEEE 802.11)</b></h4>]]></titulo-lista>
+                        <texto>
+                            Utiliza ondas de radio en las bandas de 2.4 GHz, 5 GHz y 6 GHz
+                            (Wi-Fi 6E). Permite movilidad total dentro del área de cobertura.
+                            Alcance: 30-100 metros (interior/exterior)
+                            Velocidad: Hasta 9.6 Gbps (802.11ax Wi-Fi 6)
+                            Flexibilidad para dispositivos móviles
+                            Desventajas: Susceptible a interferencias, menor seguridad que
+                            cable, velocidad variable según distancia y obstáculos
+                        </texto>
+                    </lista>
+
+                    <lista numero="2">
+                        <titulo-lista><![CDATA[<h4><b>Redes híbridas (3G/4G/5G)</b></h4>]]></titulo-lista>
+                        <texto>
+                            Combinan lo mejor de ambos mundos: conexiones cableadas para
+                            equipos fijos que requieren máximo rendimiento y Wi-Fi para
+                            dispositivos móviles.
+                            Ejemplo típico: Una oficina con servidores y PCs de escritorio
+                            conectados por Ethernet Gigabit, pero portátiles, tablets y
+                            smartphones usando Wi-Fi 6 para movilidad.
+                            Esta es la configuración más común y recomendada actualmente.
+                        </texto>
+                    </lista>
+                </listas>
+            </bloque>
+        </bloques>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 5-->
+    <!--  - - - - - - - -->
+
+    <pagina num="5"> 
+        <titulo><![CDATA[<h1><b>Modelo OSI: Las 7 Capas de la Comunicación</b></h1>]]></titulo> 
+        <informacion> 
+            El modelo OSI (Open Systems Interconnection) es un modelo estandarizado teórico y modular desarrollado por la ISO que divide el proceso de
+            comunicación en red en 7 capas independientes.
+            ISO (Organización Internacional de Normalización) es una<![CDATA[<p><b>entidad independiente que desarrolla y publica estándares (normas) internacionales
+            para asegurar la calidad, seguridad y eficiencia de productos, servicios y sistemas.</b></p>]]>
+            Su diseño modular permite que si algo falla, los técnicos puedan identificar rápidamente en qué capa está el problema, facilitando el diagnóstico y la
+            reparación.
+        </informacion>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="1"> 
+            <titulo><![CDATA[<h5><b>7. Aplicación</b></h5>]]></titulo>
+            <info>
+                Interfaz directa con el usuario final. Aquí operan navegadores web, clientes de correo, aplicaciones de
+                mensajería. Protocolos: HTTP, FTP, SMTP, DNS.
+            </info>
+        </texto>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="2">
+            <titulo><![CDATA[<h5><b>6. Presentación</b></h5>]]></titulo>
+            <info>
+                Formato y representación de datos. Cifrado, compresión y conversión de formatos (JPEG, MP3,
+                SSL/TLS). Garantiza que el emisor y receptor "hablen el mismo idioma".
+            </info>
+        </texto>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="3">
+            <titulo><![CDATA[<h5><b>5. Sesión</b></h5>]]></titulo>
+            <info>
+                Gestiona el diálogo entre aplicaciones. Establece, mantiene y finaliza sesiones de
+                comunicación. Control de tokens y sincronización de datos.
+            </info>
+        </texto>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="4">
+            <titulo><![CDATA[<h5><b>4. Transporte</b></h5>]]></titulo>
+            <info>
+                Entrega confiable de datos extremo a extremo. Segmentación, control de flujo y
+                corrección de errores. Protocolos principales: TCP (fiable, orientado a conexión) y UDP
+                (rápido, sin conexión).
+            </info>
+        </texto>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="5"> 
+            <titulo><![CDATA[<h5><b>3. Red</b></h5>]]></titulo> 
+            <info> 
+                Enrutamiento y direccionamiento lógico. Determina la mejor ruta para los datos 
+                a través de la red. Protocolos: IP (IPv4, IPv6), ICMP, OSPF. 
+            </info> 
+        </texto>
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="6"> 
+            <titulo><![CDATA[<h5><b>2. Enlace de Datos</b></h5>]]></titulo> 
+            <info> 
+                Transmisión fiable entre nodos adyacentes. Control de acceso al medio, 
+                detección y corrección de errores. Protocolos: Ethernet, PPP, ARP. 
+            </info> 
+        </texto> 
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="7"> 
+            <titulo><![CDATA[<h5><b>1. Física</b></h5>]]></titulo> 
+            <info> 
+                Transmisión de bits a través del medio físico. 
+                Define las características eléctricas, mecánicas y de señalización. 
+                Ejemplos: Cables Ethernet, fibra óptica, Wi-Fi. 
+            </info> 
+        </texto>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 6-->
+    <!--  - - - - - - - -->
+
+    <pagina num="6"> 
+        <titulo num="1"><![CDATA[<h1><b>Modelo TCP/IP: El Estándar Práctico de Internet</b></h1>]]></titulo> 
+        <informacion> 
+            El modelo TCP/IP es el marco práctico sobre el que funciona Internet y la mayoría de redes modernas. A diferencia del modelo OSI (que es teórico y
+            educativo), TCP/IP se desarrolló para implementación real y agrupa las 7 capas OSI en solo 4 capas funcionales más simples.
+        </informacion> 
+
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="1"> 
+            <titulo><![CDATA[<h5><b>Aplicación</b></h5>]]></titulo> 
+            <info> 
+                Combina las capas de Aplicación, Presentación y Sesión del modelo OSI.
+                Servicios de red que el usuario final ve y utiliza: navegación web
+                (HTTP/HTTPS), correo electrónico (SMTP, IMAP), transferencia de archivos
+                (FTP), DNS
+            </info> 
+        </texto>
+
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="2"> 
+            <titulo><![CDATA[<h5><b>Transporte</b></h5>]]></titulo> 
+            <info> 
+                Comunicación host a host, equivalente a la capa 4 de OSI. Gestiona la
+                entrega confiable (TCP) o rápida sin confirmación (UDP) de datos entre
+                aplicaciones. Puertos lógicos identifican servicios específicos (ej: puerto 80
+                = HTTP, 443 = HTTPS).
+            </info> 
+        </texto> 
+        
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="3"> 
+            <titulo><![CDATA[<h5><b>Internet</b></h5>]]></titulo> 
+            <info> 
+                Equivale a la capa de Red OSI. El protocolo IP (Internet Protocol) maneja el
+                direccionamiento lógico y el enrutamiento de paquetes a través de múltiples
+                redes. IPv4 (32 bits) e IPv6 (128 bits) son las versiones actuales.
+            </info> 
+        </texto> 
+        
+        <!-- AQUI VA UNA FOTO-->
+        <texto num="4"> 
+            <titulo><![CDATA[<h5><b>Acceso a la Red</b></h5>]]></titulo> 
+            <info> 
+                Fusiona las capas Física y de Enlace de Datos del OSI. Maneja todo lo
+                relacionado con el hardware y el acceso físico al medio: Ethernet, Wi-Fi,
+                cables, direcciones MAC, control de acceso al medio compartido.
+            </info>
+        </texto>
+
+        <caja>
+            <![CDATA[<p><b>Acceso a la Red</b>Ambos garantizan la interoperabilidad global permitiendo que dispositivos de cualquier fabricante se
+            comuniquen. Dividen problemas complejos en capas manejables, facilitando el diseño, la enseñanza y el desarrollo de nuevas tecnologías sin
+            romper las existentes. OSI es ideal para educación y diagnóstico; TCP/IP es el estándar de facto en implementación real</p>]]> 
+        </caja>
+
+        <titulo num="2"><![CDATA[<h3><b>Comparación de Modelos OSI y TCP/IP</b></h3>]]></titulo>
+        <entradilla>Esta tabla ayuda a visualizar cómo el modelo TCP/IP (el práctico) agrupa las funciones del modelo OSI (el teórico).</entradilla>
+        <![CDATA[<p>
+            <OSi_TCPIP>
+                <Capa1>
+                    <b><Nombre>Aplicación</Nombre></b>
+                    <Función>Interfaz con el usuario</Función>
+                    <b><TCP_IP>Aplicación</TCP_IP></b>
+                    <Protocolos>HTTP, SMTP, FTP</Protocolos>
+                </Capa1>
+                <Capa2>
+                    <b><Nombre>Presentación</Nombre></b>
+                    <Función>Cifrado y formatos (JPG, SSL)</Función>
+                    <b><TCP_IP>Incluido en Aplicación</TCP_IP></b>
+                    <Protocolos>SSL/TLS, JPEG, ASCII</Protocolos>
+                </Capa2>
+                <Capa3>
+                    <b><Nombre>Sesión</Nombre></b>
+                    <Función>Control de diálogo</Función>
+                    <TCP_IP>Incluido en Aplicación</TCP_IP>
+                    <Protocolos>RPC, NetBIOS</Protocolos>
+                </Capa3>
+                <Capa4>
+                    <b><Nombre>Transporte</Nombre></b>
+                    <Función>Fiabilidad y segmentación</Función>
+                    <b><TCP_IP>Transporte</TCP_IP></b>
+                    <Protocolos>TCP, UDP</Protocolos>
+                </Capa4>
+                <Capa5>
+                    <b><Nombre>Red</Nombre></b>
+                    <Función>Enrutamiento (La mejor ruta)</Función>
+                    <b><TCP_IP>Internet</TCP_IP></b>
+                    <Protocolos>IP, ICMP, OSPF</Protocolos>
+                </Capa5>
+                <Capa6>
+                    <b><Nombre>Enlace de Datos</Nombre></b>
+                    <Función>Acceso al medio y MAC</Función>
+                    <b><TCP_IP>Acceso a la Red</TCP_IP></b>
+                    <Protocolos>Ethernet, Wi-Fi, ARP</Protocolos>
+                </Capa6>
+                <Capa7>
+                    <b><Nombre>Física</Nombre></b>
+                    <Función>Cables y señales eléctricas</Función>
+                    <TCP_IP>Incluido en Acceso a la Red</TCP_IP>
+                    <Protocolos>Cables UTP, Fibra, Hubs</Protocolos>
+                </Capa7>
+            </OSi_TCPIP>
+        </p>]]> 
+    
+
+        <titulo num="3">Pruebas</titulo> 
+        <entradilla>Vamos a sacar nuestra consola powershell, o la consola cmd. y vamos a poner ipconfig</entradilla>
+        
+        <!-- AQUI VA UNA FOTO-->
+
+        <frases num="1"> 
+            <titulo><![CDATA[<h3><b>Adaptador de LAN inalámbrica Wi-Fi</b></h3]]></titulo>
+            <texto>
+                Esta sección se refiere a tu tarjeta de red Wi-Fi (la antena que conecta tu PC a Internet sin cables).
+                <![CDATA[<h3><b>Sufijo DNS específico para la conexión:</b></h3><p>                Tu valor: (Está vacío)
+                Qué es: A veces, los routers asignan un nombre de dominio a la red (como "micasa.local"). Si está vacío, simplemente significa que tu router no
+                está asignando un nombre específico a esta red. No es un problema.</p>]]>
+                <![CDATA[<h3><b>Vínculo: dirección IPv6 local:</b></h3><p>
+                Tu valor: fe80::5946:6a24:ed21:5c25%12
+                Qué es: Es la dirección IP en el formato moderno (IPv6). El término "Local" significa que esta dirección solo sirve para comunicarse con otros
+                dispositivos dentro de tu misma red local, no para salir a Internet globalmente.</p>]]>
+                <![CDATA[<h3><b>Dirección IPv4:</b></h3><p>
+                Tu valor: 10.50.0.30
+                Qué es: Este es el dato más importante. Es la "matrícula" o identificación de tu ordenador dentro de la red de tu casa u oficina.
+                10.50.0 indica la red a la que perteneces.
+                .30 es el número específico de tu ordenador.
+                Nota: Las direcciones que empiezan por 10.x.x.x son redes privadas, muy comunes en oficinas o configuraciones específicas (a diferencia de las
+                típicas 192.168.1.x de casa).</p>]]>
+                <![CDATA[<h3><b>Máscara de subred:</b></h3><p>
+                Tu valor: 255.255.255.0
+                Qué es: Define el tamaño de la red.
+                El 255.255.255 le dice al ordenador que la parte fija de la red es 10.50.0.
+                El .0 final indica que los dispositivos pueden cambiar solo el último número (del 1 al 254).
+                Puerta de enlace predeterminada:
+                Tu valor: 10.50.0.1
+                Qué es: Esta es la dirección IP de tu Router.
+                Se llama "puerta de enlace" (Gateway) porque es la puerta por la que salen tus datos cuando quieres ir a Internet (Google, YouTube, etc.). Si tu
+                ordenador quiere "salir" de casa, envía la información al 10.50.0.1.</p>]]>
+            </texto>
+                
+            <titulo><![CDATA[<h3><b>Para CONFIGURAR la red (El "Cuadro de Propiedades")</b></h3]]></titulo>
+            <texto>
+                <![CDATA[<p>
+                Si lo que necesitas es abrir la ventana donde se cambian manualmente las IPs o las DNS, el método más rápido en cualquier versión de Windows (10 u
+                11) es usar un atajo:
+                En tu teclado, mantén pulsada la tecla <b>Windows</b> y pulsa la tecla <b>R</b> (Windows + R). Se abrirá una ventanita pequeña llamada "Ejecutar".1.
+                2. Escribe el siguiente comando tal cual y pulsa Aceptar: ncpa.cpl
+                Se abrirá una ventana con tus iconos de red (Wi-Fi, Ethernet, Bluetooth).3.
+                Haz <b>clic derecho</b> sobre tu adaptador (en tu caso, el que dice "Wi-Fi") y selecciona <b>Propiedades</b>.4.
+                En la lista, busca <b>Protocolo de Internet versión 4 (TCP/IPv4)</b> y haz doble clic sobre él.5.
+                <b>¿Qué puedes hacer aquí?</b> En esa ventana verás que probablemente está marcado "Obtener una dirección IP automáticamente". Si necesitas configurar
+                una red de área local fija, ahí es donde seleccionarías "Usar la siguiente dirección IP" para copiar los datos que viste antes (Dirección IP, Máscara,
+                Puerta de enlace).
+                </p>]]>
+            </texto>
+
+            <!-- AQUI VA UNA FOTO-->
+             <texto>Botón derecho en la red wifi, y botón derecho en TCP IPv4</texto>
+            <!-- AQUI VA UNA FOTO-->
+            <!-- AQUI VA UNA FOTO-->
+             <texto>Opciones avanzadas</texto>
+            <!-- AQUI VA UNA FOTO-->
+             <texto>Opción IPv6. </texto>
+            <!-- AQUI VA UNA FOTO-->
+             <texto>Conexiones de red: Dale a boton derecho en el simbolo de windows y ve a conexiones de red.</texto>
+            <!-- AQUI VA UNA FOTO-->
+            <!-- AQUI VA UNA FOTO-->
+             <texto>
+                Luego le daremos a ethernet para ver los datos de la configuración que tenemos.
+                Nos aparecera un curado muy valioso donde nos dice los datos que hemos podido coprobar antes desde powerShell, con el comando ipconfig
+                Aqui podemos configurar y editar algunas cosas como la direccion ip y el
+                servidor DNS
+             </texto>
+            <!-- AQUI VA UNA FOTO-->
+             <texto>Pero esta no es nuestra direccion ip real exterior.. eso porque es</texto> 
+
+            <titulo><![CDATA[<h3><b>¿Cuál es mi dirección IP?</b></h3]]></titulo>
+            <texto>
+                <![CDATA[<h3><b>¿Cuál es mi dirección IP?</b></h3]]>
+                Vamos hacer unas pequeñas pruebas: https://www.arsys.es/herramientas/cual-es-mi-ip
+                Esto nos dará el resultado de nuestra IP externa
+                Descarga opera y utiliza una VPN como bearVPN y ahora comprueba la ip
+            </texto>
+
+            <titulo>La diferencia: IP Privada (Local) vs. IP Pública (Externa)</titulo>
+            <texto>
+                Imagina que tu conexión a Internet es como un gran edificio de oficinas:
+                Tu IP Pública (La que ves en la web): Es la dirección postal del edificio (ej: Calle Gran Vía, 50). Esta dirección es única en todo el mundo y es la
+                que ven las páginas web cuando entras. Esta IP la tiene tu Router, no tu ordenador.
+                Tu IP Privada (La que muestra Windows): Es el número de tu despacho dentro del edificio (ej: Despacho 30). Solo sirve para que el conserje (el
+                Router) sepa a qué habitación llevar los paquetes. Esta es la que muestra tu configuración de Windows.
+            </texto>
+
+            <titulo>¿Por qué Windows no sabe tu IP externa?</titulo>
+            <texto>
+                Tu ordenador, en realidad, no tiene conexión directa con "el mundo exterior". Tu ordenador solo se conecta al Router.
+                Tu PC le dice al Router: "Quiero ver Google".1.
+                El Router anota quién lo pidió (tu IP local 10.50.0.30), sale a Internet con su IP Pública, recoge la información y te la devuelve.2.
+                Windows solo se preocupa de su conexión con el Router, por eso nunca verás la IP pública en este men
+            </texto>
+
+            <titulo>Observaciones</titulo>
+            <texto>
+                Hay dos detalles importantes
+                "No está conectado": Fíjate que arriba dice "Ethernet: No está conectado". Esto significa que ahora mismo ese cable no funciona o no está
+                puesto, por lo que Windows no tiene ninguna dirección IP asignada en esa tarjeta específica (aunque sí tengas internet por Wi-Fi como vimos en la
+                imagen anterior).
+                1.
+                DNS Manuales: Tienes configurados los DNS de forma manual.2.
+                192.168.1.101: Esto parece ser una dirección local (quizás un servidor en la oficina o un bloqueador de anuncios tipo Pi-Hole).
+                8.8.8.8: Este es el DNS de Google (usado como respaldo).
+            </texto>
+        </frases>
+    </pagina>
+    
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 7-->
+    <!--  - - - - - - - -->
+
+    <pagina num="7"> 
+        <titulo>Protocolos de Comunicación: Las Reglas del Juego Digital</titulo> 
+        <informacion> 
+            Los protocolos son conjuntos de reglas estandarizadas que definen cómo los dispositivos se comunican en una red. Sin estos acuerdos universales, los
+            diferentes sistemas no podrían entenderse entre sí, haciendo imposible la comunicación global.
+        </informacion>
+
+            <!-- BLOQUE DE TRANSPORTE-->
+            <bloque num="1">
+                <titulo>Protocolos de Transporte</titulo>
+                <listas>
+                    <!-- LISTA DE LA IZQUIERDA -->
+                    <lista numero="1">
+                        <titulo-lista>TCP (Transmission Control Protocol)</titulo-lista>
+                        <texto>
+                            <![CDATA[<p><b>Orientado a conexión:</b> Establece un "canal" antes de
+                            transmitir (triple apretón de manos: SYN, SYN-ACK, ACK).</p>]]>
+                            
+                            <![CDATA[<p><b>Fiable:</b> Verifica que todos los datos lleguen y en el orden
+                            correcto. Si faltan paquetes, los retransmite
+                            automáticamente.</p>]]>
+                            
+                            Usos: Navegación web (HTTP/HTTPS), correo electrónico
+                            (SMTP/IMAP), descarga de archivos (FTP), SSH. Cualquier
+                            aplicación donde la integridad de datos es crítica.
+                            Desventaja: Mayor latencia debido a las confirmaciones.
+                        </texto>
+                    </lista>
+
+                    <lista numero="2">
+                        <titulo-lista>UDP (User Datagram Protocol)</titulo-lista>
+                        <texto>
+                            Sin conexión: "Dispara y olvida". No establece canal
+                            previo.
+                            No fiable: No garantiza entrega ni orden. No hay
+                            retransmisiones automáticas.
+                            Usos: Streaming de video/audio (Netflix, Spotify),
+                            videollamadas (Zoom, Teams), juegos online multijugador,
+                            DNS. Aplicaciones donde la velocidad es más importante
+                            que la perfección.
+                            Ventaja: Mínima latencia, ideal para tiempo real.
+
+                        </texto>
+                    </lista>
+                </listas>
+            </bloque>
+
+            <!-- BLOQUE DE APLICACIÓN Y RED-->
+            <bloque num="2">
+                <titulo>Protocolos de Aplicación y Red</titulo>
+                <listas>
+                    <!-- LISTA DE LA DERECHA -->
+                    <lista numero="1">
+                        <titulo-lista>IP (Internet Protocol)</titulo-lista>
+                        <texto>
+                            El "GPS" de Internet. Direccionamiento lógico (ej: 192.168.1.1) y
+                            enrutamiento de paquetes. Define cómo fragmentar datos y cómo los
+                            routers determinan la mejor ruta hacia el destino.
+                        </texto>
+                    </lista>
+
+                    <lista numero="2">
+                        <titulo-lista>HTTP/HTTPS</titulo-lista>
+                        <texto>
+                            HTTP: Protocolo de transferencia de hipertexto. Base de la web.
+                            HTTPS: HTTP + cifrado SSL/TLS. Protege datos sensibles
+                            (contraseñas, tarjetas de crédito). El candado en el navegador indica
+                            HTTPS activo.
+                        </texto>
+                    </lista>
+
+                    <lista numero="3">
+                        <titulo-lista>SMTP/IMAP/POP3</titulo-lista>
+                        <texto>
+                            SMTP: Envío de correos. IMAP: Recepción sincronizada (mensajes en
+                            servidor). POP3: Recepción descargando al dispositivo local. IMAP es
+                            el estándar moderno recomendado.
+                        </texto>
+                    </lista>
+
+                    <lista numero="4">
+                        <titulo-lista>DNS (Domain Name System)</titulo-lista>
+                        <texto>
+                            Traduce nombres de dominio legibles (www.ejemplo.com) a
+                            direcciones IP numéricas (93.184.216.34). La "guía telefónica" de
+                            Internet. Sin DNS tendríamos que memorizar números IP.
+                        </texto>
+                    </lista>
+                </listas>
+            </bloque>
+            
+            <!-- TABLA DE PROTOCOLOS -->
+            <bloque num="3">
+                <titulo>Tabla de Protocolos de Comunicación</titulo>
+                <informacion>
+                    Esta es fundamental para ver la diferencia entre "calidad" y "velocidad".
+                </informacion>
+
+            <bloques>
+            <!-- BLOQUE DE TCP -->
+        <bloque num="1">
+            <titulo>TCP (Transmission Control Protocol)</titulo>
+            <listas>
+                <lista numero="1">
+                    <titulo-lista>Tipo de conexión</titulo-lista>
+                    <texto>Orientado a conexión (requiere "saludo" previo).</texto>
+                </lista>
+                <lista numero="2">
+                    <titulo-lista>Fiabilidad</titulo-lista>
+                    <texto>Alta. Garantiza que los datos lleguen. Reenvía paquetes perdidos.</texto>
+                </lista>
+                <lista numero="3">
+                    <titulo-lista>Orden</titulo-lista>
+                    <texto>Reconstruye los datos en el orden exacto (secuencia).</texto>
+                </lista>
+                <lista numero="4">
+                    <titulo-lista>Velocidad</titulo-lista>
+                    <texto>Más lento (mayor carga de control).</texto>
+                </lista>
+                <lista numero="5">
+                    <titulo-lista>Uso ideal</titulo-lista>
+                    <texto>Web (HTTP), correo, descarga de archivos, chats de texto.</texto>
+                </lista>
+            </listas>
+        </bloque>
+
+        <!-- BLOQUE DE UDP -->
+        <bloque num="2">
+            <titulo>UDP (User Datagram Protocol)</titulo>
+            <listas>
+                <lista numero="1">
+                    <titulo-lista>Tipo de conexión</titulo-lista>
+                    <texto>Sin conexión ("enviar y olvidar").</texto>
+                </lista>
+                <lista numero="2">
+                    <titulo-lista>Fiabilidad</titulo-lista>
+                    <texto>Baja. No garantiza la llegada; si se pierde un paquete, se pierde.</texto>
+                </lista>
+                <lista numero="3">
+                    <titulo-lista>Orden</titulo-lista>
+                    <texto>No garantiza el orden de llegada.</texto>
+                </lista>
+                <lista numero="4">
+                    <titulo-lista>Velocidad</titulo-lista>
+                    <texto>Muy rápido (baja latencia).</texto>
+                </lista>
+                <lista numero="5">
+                    <titulo-lista>Uso ideal</titulo-lista>
+                    <texto>Streaming de video, llamadas VoIP, juegos online.</texto>
+                </lista>
+            </listas>
+        </bloque>
+    </bloques>
+            </bloque>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 8-->
+    <!--  - - - - - - - -->
+
+    <pagina num="8">
+        <titulo>Seguridad en Protocolos y Redes</titulo>
+        <informacion>
+            Proteger los datos en tránsito y en reposo es fundamental en el mundo actual de ciberamenazas constantes. Las redes modernas implementan múltiples
+            capas de seguridad para defenderse contra ataques cada vez más sofisticados.
+        </informacion>
+
+        <bloque num="1">
+            <titulo>HTTPS (HTTP Secure)</titulo>
+                <descripcion>
+                    Combina HTTP con cifrado SSL/TLS (Secure Sockets Layer / Transport
+                    Layer Security). Cifra toda la comunicación entre navegador y servidor
+                    web, protegiendo contraseñas, datos bancarios y comunicaciones
+                    privadas. Esencial para comercio electrónico, banca online y cualquier sitio
+                    que maneje información sensible. Los navegadores modernos marcan
+                    sitios HTTP como "No seguros"
+                </descripcion>
+        </bloque>
+
+        <bloque num="2">
+            <titulo>VPN / IPsec</titulo>
+                <descripcion>
+                    Las VPNs (Virtual Private Networks) crean "túneles" cifrados sobre redes
+                    públicas (como Internet), permitiendo acceso remoto seguro a redes
+                    corporativas. IPsec cifra cada paquete IP, protegiendo confidencialidad e
+                    integridad. Fundamental para teletrabajo seguro, evitando que hackers
+                    intercepten datos en Wi-Fi públicas o conexiones no confiables.
+                </descripcion>
+        </bloque>
+
+        <bloque num="3">
+            <titulo>Firewalls</titulo>
+                <descripcion>
+                    Dispositivos (hardware) o software que actúan como barreras de
+                    seguridad, filtrando el tráfico de red según reglas predefinidas. Bloquean
+                    accesos no autorizados permitiendo solo conexiones legítimas. Funcionan
+                    analizando direcciones IP de origen/destino, puertos, protocolos y patrones
+                    de tráfico sospechosos. Pueden ser perimetrales (protegen toda la red) o
+                    personales (protegen un PC individual).
+                </descripcion>
+        </bloque>
+
+        <bloque num="4">
+            <titulo>WPA3</titulo>
+                <descripcion>
+                    CEl estándar más reciente y seguro para proteger redes Wi-Fi (2018).
+                    Mejora significativamente sobre WPA2 con cifrado más robusto (192-bit en
+                    modo Enterprise), protección contra ataques de fuerza bruta a
+                    contraseñas, y cifrado individualizado de sesiones (incluso en redes
+                    públicas). WPA3-Personal es el mínimo recomendado para redes
+                    domésticas y empresariales actuales.
+                </descripcion>
+        </bloque>
+
+        <post-informacion>
+            Principio de Defensa en Profundidad: La seguridad efectiva no depende de una sola tecnología, sino de múltiples capas complementarias. Una red
+            moderna debe combinar: cifrado de comunicaciones (HTTPS, VPN), control de acceso (Firewalls, autenticación), seguridad Wi-Fi (WPA3),
+            actualizaciones regulares de software, formación de usuarios contra phishing, y sistemas de detección de intrusiones (IDS/IPS).
+        </post-informacion>
+    </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 9-->
+    <!--  - - - - - - - -->
+
+        <pagina num="9">            
+            <titulo><![CDATA[<p><b>Topologías de Red y Modos de Conexión</b><p/>]]></titulo>
+            <informacion>
+                La topología define la estructura física o lógica en la que están conectados los dispositivos de una red. Cada topología tiene ventajas, desventajas y
+                casos de uso específicos que determinan su idoneidad para diferentes escenarios. 
+            </informacion>
+
+
+            <bloques pagina="9">
+            <!-- BLOQUE DE BUS -->
+            <bloque num="1">
+                <titulo><![CDATA[<p><b>Bus</b><p/>]]></titulo>
+                <descripcion>
+                    <![CDATA[<p>Un solo cable central (backbone) al que todos los
+                    dispositivos se conectan.
+                    <b>Ventaja:</b> Simplicidad, bajo coste.
+                    <b>Desventaja crítica:</b> Si el cable central se rompe, toda la
+                    red cae. Obsoleta actualmente, se usaba en redes Ethernet antiguas (10Base2)<p/>]]>                   
+                </descripcion>     
+            </bloque>
+            
+            <!-- BLOQUE DE ESTRELLA-->
+            <bloque num="2">
+                <titulo><![CDATA[<p><b>Estrella</b><p/>]]></titulo>
+                <descripcion>
+                    <![CDATA[<p>Todos los dispositivos conectados a un punto central (Switch o Hub).
+                    <b>Ventaja:</b> Si falla un cable, solo ese dispositivo se desconecta; el resto funciona. Fácil diagnóstico y escalabilidad.
+                    <b>Desventaja:</b> El punto central es crítico. Estándar actual en LANs Ethernet.<p/>]]>                   
+                </descripcion>
+            </bloque>
+
+            <!-- BLOQUE DE ANILLO -->
+            <bloque num="3">
+                <titulo><![CDATA[<p><b>Anillo</b><p/>]]></titulo>
+                <descripcion>
+                    <![CDATA[<p>Circuito cerrado donde los datos viajan en una dirección (o bidireccional en anillo dual). Cada nodo regenera la señal.
+                    <b>Uso histórico:</b> Token Ring de IBM, FDDI en fibra óptica. Poco común hoy, reemplazada por estrella.<p/>]]>
+                </descripcion>
+            </bloque>
+
+            <!-- BLOQUE DE MALLA(MESH) -->
+            <bloque num="4">    
+                <titulo><![CDATA[<p><b>Malla (Mesh)</b><p/>]]></titulo>
+                <descripcion>
+                    <![CDATA[<p>Todos (o muchos) nodos conectados entre sí directamente.
+                    <b>Ventaja:</b> Máxima redundancia y robustez. Si falla un enlace, los datos toman rutas alternativas.
+                    <b>Desventaja:</b> Coste alto.
+                    <b>Uso:</b> Redes críticas (militares, satélites), Internet backbone, redes de sensores.<p/>]]>              
+                </descripcion>
+            </bloque>
+
+            <!-- BLOQUE DE ARBOL(JERÁRQUICA) -->
+            <bloque num="5">    
+                <titulo><![CDATA[<p><b>Árbol (Jerárquica)</b><p/>]]></titulo>
+                <descripcion>
+                    <![CDATA[<p>Múltiples topologías en estrella conectadas jerárquicamente a un backbone central.
+                    <b>Ventaja:</b> Escalable, organizada por jerarquías (departamentos, plantas).
+                    <b>Uso común:</b> Edificios grandes, campus universitarios, empresas con estructura por divisiones.<p/>]]>
+                    
+                </descripcion>
+            </bloque>
+            
+        </bloques>    
+        
+        
+        <subtitulo><![CDATA[<p><b>Modos de Conexión (Lógica de Comunicación)</b><p/>]]></subtitulo>
+        
+        <entradillaUno><![CDATA[<p><b>Orientado a Conexión (Connection-Oriented)</b><p/>]]></entradillaUno>
+            <contenido>
+                <![CDATA[<p>Protocolo ejemplo: TCP
+                <b>Funcionamiento:</b> "Llama antes de hablar". Establece un canal dedicado mediante triple apretón de manos (SYN, SYN-ACK, ACK) antes de transmitir datos.
+                <b>Características:</b> Garantiza orden y llegada de datos. Retransmite paquetes perdidos. Control de flujo y congestión.
+                <b>Ventajas:</b> Alta fiabilidad, integridad garantizada.
+                <b>Desventajas:</b> Mayor latencia debido a confirmaciones y establecimiento de sesión.<p/>]]>                
+            </contenido>
+
+        <entradillaDos><![CDATA[<p><b>Sin Conexión (Connectionless)</b><p/>]]></entradillaDos>
+            <contenido>
+                <![CDATA[<p>Protocolo ejemplo: UDP
+                <b>Funcionamiento:</b> "Envía y olvida". No establece sesión previa. Cada paquete viaja independientemente.
+                <b>Características:</b> No confirma recepción. No garantiza orden ni entrega.
+                <b>Ventajas:</b> Máxima velocidad, mínima latencia, ideal para tiempo real.
+                <b>Desventajas:</b> Puede perder datos. La aplicación debe manejar posibles pérdidas.
+                <b>Uso ideal:</b> Streaming, videollamadas, juegos online donde velocidad > perfección.<p/>]]>
+            </contenido>
+
+            
+        <TituloTabla><![CDATA[<p><b>4. Tabla de Topologías de Red</b><p/>]]></TituloTabla>
+            <info>Aquí se contrastan las formas físicas de conectar los equipos.</info>
+                <tabla_topologias>
+                     <fila>
+                         <Topologia><![CDATA[<p><b>Bus</b><p/>]]></Topologia>
+                         <Descripcion>
+                            Un solo cable central (troncal) con dispositivos conectados a los lados.
+                        </Descripcion>
+                         <Ventaja>
+                            Muy barato y fácil de instalar.
+                        </Ventaja>
+                        <Desventaja>
+                            <![CDATA[<p>Si el cable central se rompe, <b>toda la red cae</b>.<p/>]]>
+                            
+                        </Desventaja>
+                    </fila>
+
+                    <fila>
+                        <Topologia><![CDATA[<p><b>Estrella</b><p/>]]></Topologia>
+                        <Descripcion>
+                            Todos los cables van a un punto central (Switch).
+                        </Descripcion>
+                        <Ventaja>
+                            Fácil de gestionar; si falla un PC, el resto sigue funcionando.
+                        </Ventaja>
+                        <Desventaja>
+                            Depende totalmente del switch central; mayor coste en cableado.
+                        </Desventaja>
+                    </fila>
+
+                    <fila>
+                        <Topologia><![CDATA[<p><b>Anillo</b><p/>]]></Topologia>
+                        <Descripcion>
+                            Círculo cerrado de dispositivos.
+                        </Descripcion>
+                        <Ventaja>
+                            Flujo de datos ordenado (sin colisiones).
+                        </Ventaja>
+                        <Desventaja>
+                            Si un nodo falla, puede romper el ciclo.
+                        </Desventaja>
+                    </fila>
+
+                    <fila>
+                        <Topologia><![CDATA[<p><b>Malla</b><p/>]]></Topologia>
+                        <Descripcion>
+                            Conexiones múltiples entre todos los nodos.
+                        </Descripcion>
+                        <Ventaja>
+                            <![CDATA[<p><b>Robustez total.</b> Si falla una ruta, hay otras.<p/>]]>
+                            
+                        </Ventaja>
+                        <Desventaja>
+                            Es la más cara y compleja de instalar.
+                        </Desventaja>
+                    </fila>
+                </tabla_topologias>
+        </pagina>
+
+    <!--  - - - - - - - -->
+    <!-- PÁGINA NÚMERO 10-->
+    <!--  - - - - - - - -->
+  
+        <pagina num="10">
+            <titulo><![CDATA[<p><b>Componentes de Hardware en Redes Informáticas</b><p/>]]></titulo>        
+                <informacion>
+                    Una red funcional necesita distintos componentes físicos para poder transmitir datos.
+                    Desde los cables hasta los dispositivos inteligentes que gestionan el tráfico,
+                    cada elemento cumple una función esencial dentro de la infraestructura de red.
+                </informacion>
+
+                <!-- BLOQUE 1 -->
+        <bloque num="1">           
+            <titulo><![CDATA[<p><b>Medios de Transmisión Cableados</b><p/>]]></titulo>
+
+            <listas>
+                <lista numero="1">
+                    <![CDATA[<p><b>Ventajas de fibra:</b> Inmunidad total a interferencias electromagnéticas, sin diafonía, distancias enormes, 
+                        ancho de banda masivo (Terabits/s), seguridad (difícil interceptar luz). <b>Desventaja:</b> Coste inicial más alto, 
+                        requiere técnicos especializados para empalmes.<p/>]]>
+
+                    <titulo-lista><![CDATA[<p><b>Cable Par Trenzado (Cobre)</b><p/>]]></titulo-lista>
+                    <texto>
+                        <![CDATA[<p><b>Cat 5e:</b> Hasta 1 Gbps, 100m máx. Uso: Hogares, oficinas pequeñas. Económico y suficiente para la mayoría.<p/>]]>
+                        <![CDATA[<p><b>Cat 6:</b> Hasta 10 Gbps en 55m, 1 Gbps en 100m. Uso: Oficinas profesionales, estudios de diseño. Mejor blindaje contra interferencias.<p/>]]>
+                        <![CDATA[<p><b>Cat 6a/7:</b> 10 Gbps sostenidos en 100m. Uso: Datacenters, infraestructuras exigentes. Máximo blindaje (S/FTP).<p/>]]>                     
+                    </texto>
+                </lista>
+
+                <lista numero="2">                   
+                    <titulo-lista><![CDATA[<p><b>Fibra Óptica (Transmisión por Luz)</b><p/>]]></titulo-lista>
+                    <texto>
+                        <![CDATA[<p><b>Monomodo (SMF):</b> Núcleo de 9 micrómetros. Un solo haz de luz. Distancias: 40-100+ km sin repetidores. 
+                        Uso: Enlaces troncales ISP, conexiones entre ciudades, cables submarinos intercontinentales. Láser de alta precisión.<p/>]]>
+
+                        <![CDATA[<p><b>Multimodo (MMF):</b> Núcleo de 50-62.5 micrómetros. Múltiples haces de luz. Distancias: Hasta 2 km. Uso: Campus, edificios, datacenters internos. 
+                        LED más económico. Velocidades: 10/40/100 Gbps.<p/>]]>
+
+                        <![CDATA[<p><b>Ventajas de fibra:</b> Inmunidad total a interferencias electromagnéticas, sin diafonía, distancias enormes, 
+                        ancho de banda masivo (Terabits/s), seguridad (difícil interceptar luz). <b>Desventaja:</b> Coste inicial más alto, 
+                        requiere técnicos especializados para empalmes.<p/>]]>
+                    </texto>
+                </lista>
+            </listas>
+        </bloque>
+
+        <!-- EVOLUCIÓN WIFI -->
+        <bloque num="2">           
+            <titulo><![CDATA[<p><b>Evolución de los Estándares Wi-Fi (802.11)</b><p/>]]></titulo>
+                <informacion>
+                    El Wi-Fi ha evolucionado dramáticamente en velocidad, eficiencia y capacidad de gestionar dispositivos simultáneos.
+                </informacion>
+
+                
+
+                <bloque num="2">
+                    <titulo>Evolución de los Estándares Wi-Fi (802.11)</titulo>
+
+                    <listas>
+                        <lista numero="1">
+                            <titulo-lista><![CDATA[<p><b>802.11b/g</b><p/>]]></titulo-lista>
+                            <texto>
+                                <![CDATA[<p>Banda: 2.4 GHz. Velocidad: 11-54 Mbps. 
+                                <b>Problema:</b> Banda saturadísima (interferencias con microondas, Bluetooth, teléfonos inalámbricos). Obsoleto.<p/>]]>
+                                
+                            </texto>
+                        </lista>
+
+                        <lista numero="2">                           
+                            <titulo-lista><![CDATA[<p><b>802.11n (Wi-Fi 4)</b><p/>]]></titulo-lista>
+                            <texto>
+                                Banda dual: 2.4 y 5 GHz. Velocidad: Hasta 600 Mbps.
+                                Introduce MIMO (Multiple Input Multiple Output): múltiples antenas para mejor rendimiento. Gran avance en velocidad.
+                            </texto>
+                        </lista>
+
+                        <lista numero="3">                           
+                            <titulo-lista><![CDATA[<p><b>802.11ac (Wi-Fi 5)</b><p/>]]></titulo-lista>
+                            <texto>
+                                Solo 5 GHz. Velocidad: Hasta 3.5 Gbps. MU-MIMO (Multi-User MIMO): El router puede comunicarse con múltiples dispositivos simultáneamente. 
+                                Beamforming: Enfoca señal hacia dispositivos específicos. Estándar dominante 2013-2019.
+                            </texto>
+                        </lista>
+
+                        <lista numero="4">                            
+                            <titulo-lista><![CDATA[<p><b>802.11ax (Wi-Fi 6/6E)</b><p/>]]></titulo-lista>
+                            <texto>
+                                <![CDATA[<p>Bandas: 2.4, 5 y 6 GHz (6E). Velocidad: Hasta 9.6 Gbps. 
+                                <b>Revolución en eficiencia:</b> OFDMA permite servir múltiples dispositivos en cada transmisión. 
+                                TWT (Target Wake Time) reduce consumo en IoT. Ideal para ambientes densos: estadios, aeropuertos, hogares con 50+ dispositivos IoT. 
+                                <b>El futuro es Wi-Fi 6E.</b><p/>]]>
+                            </texto>
+                        </lista>
+                    </listas>
+                </bloque>
+        </bloque>
+
+        
+        <TituloTablaUno> <![CDATA[<p><b>Tabla de Componentes de una Red</b><p/>]]> </TituloTablaUno>
+            <informacion>
+                Para diferenciar rápidamente entre los tipos de cables y ondas.
+            </informacion>
+
+            <tabla_componentes>
+            <filaUno>               
+                <Medio><![CDATA[<p><b>Cable Par Trenzado (UTP)</b><p/>]]></Medio>
+                <Tipo>Guiado (Cobre)</Tipo>
+                <Velocidad>1 Gbps - 10 Gbps (Corto alcance - 100m).</Velocidad>
+                <Uso>Redes LAN de oficinas, conexión de PC a Switch.</Uso>
+            </filaUno>
+
+            <filaDos>
+                
+                <Medio><![CDATA[<p><b>Fibra Óptica</b><p/>]]></Medio>
+                <Tipo>Guiado (Luz)</Tipo>
+                <Velocidad>>100 Gbps (Largo alcance, kms).</Velocidad>
+                <Uso>Redes troncales (WAN), conexiones entre edificios o ciudades</Uso>
+            </filaDos>
+
+            <filaTres>               
+                <Medio><![CDATA[<p><b>Wi-Fi (802.11)</b><p/>]]></Medio>
+                <Tipo>No Guiado (Radio)</Tipo>
+                <Velocidad>Variable (depende de obstáculos).</Velocidad>
+                <Uso>Dispositivos móviles, portátiles, zonas comunes.</Uso>
+            </filaTres>
+
+            <filaCuatro>                
+                <Medio><![CDATA[<p><b>Microondas</b><p/>]]></Medio>
+                <Tipo>No Guiado (Ondas)</Tipo>
+                <Velocidad>Largo alcance (línea de vista)</Velocidad>
+                <Uso>Conectar dos edificios lejanos sin poner cables físicos.</Uso>
+            </filaCuatro>
+        </tabla_componentes>
+
+        <!-- TABLA REDES INALÁMBRICAS -->         
+        <TituloTablaDos><![CDATA[<p><b>Tabla de Redes Inalámbricas</b><p/>]]></TituloTablaDos>
+
+        <tabla_wifi>
+            <fila1>                
+                <Estandar><![CDATA[<p><b>802.11n</b><p/>]]></Estandar>
+                <Nombre>Wi-Fi 4</Nombre>
+                <Frecuencia>2.4 GHz y 5 GHz</Frecuencia>
+                <Caracteristica>Primer gran salto de velocidad (MIMO).</Caracteristica>
+            </fila1>
+
+            <fila2>
+                <Estandar><![CDATA[<p><b>802.11ac</b><p/>]]></Estandar>
+                <Nombre>Wi-Fi 5</Nombre>
+                <Frecuencia>5 GHz</Frecuencia>
+                <Caracteristica>Alta velocidad, ideal para video HD</Caracteristica>
+            </fila2>
+
+            <fila3>
+                <Estandar><![CDATA[<p><b>802.11ax</b><p/>]]></Estandar>
+                <Nombre>Wi-Fi 6</Nombre>
+                <Frecuencia>2.4 y 5 GHz</Frecuencia>
+                <Caracteristica>Eficiencia. Diseñado para muchos dispositivos a la vez (IoT).</Caracteristica>
+            </fila3>
+        </tabla_wifi>
+    </pagina> 
+</documento>
