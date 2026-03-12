@@ -12,6 +12,20 @@
             conceptos básicos hasta las arquitecturas modernas que sustentan nuestra sociedad
             interconectada.
         </informacion>
+
+        <seccion id="S2" nombre="Topologías de Red">
+    <bloque id="B3" titulo="Configuraciones Físicas">
+        <tarjetas>
+            <tarjeta titulo="Estrella">
+                <parrafo>Todos los nodos están conectados a un dispositivo central (Hub o Switch). Es la más usada en redes LAN actuales.</parrafo>
+            </tarjeta>
+            <tarjeta titulo="Malla">
+                <parrafo>Cada dispositivo tiene un enlace propio con todos los demás. Ofrece la mayor fiabilidad (redundancia).</parrafo>
+            </tarjeta>
+        </tarjetas>
+    </bloque>
+</seccion>
+
     </pagina>
 
     <!--  - - - - - - - -->
